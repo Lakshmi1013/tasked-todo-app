@@ -36,7 +36,6 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  int variabkeofthela = 4;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

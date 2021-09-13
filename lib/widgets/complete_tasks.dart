@@ -13,6 +13,10 @@ class CompleteTasks extends StatelessWidget {
       Align(
           alignment: Alignment.centerLeft,
           child: Container(
+            margin: EdgeInsets.symmetric(
+              vertical: 10,
+              horizontal: 10,
+            ),
             child: Text(
               "COMPLETED TASKS : ",
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
